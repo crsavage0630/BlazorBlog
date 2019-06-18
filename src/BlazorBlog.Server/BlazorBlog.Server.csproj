@@ -9,11 +9,13 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Server" Version="0.7.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorBlog.Client\BlazorBlog.Client.csproj" />
-    <ProjectReference Include="..\BlazorBlog.Shared\BlazorBlog.Shared.csproj" />
+    <ProjectReference Include="..\BlazorBlog.Core\BlazorBlog.Core.csproj" />
+    <ProjectReference Include="..\BlazorBlog.Infrastructure\BlazorBlog.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
